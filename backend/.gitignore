@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript compiled files
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.test
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jest cache & coverage reports
+jest.config.js
+coverage/
+.nyc_output/
+
+# Docker-related files
+docker-compose.override.yml
+docker-volume/
+
+# Miscellaneous
+*.bak
+*.tmp
